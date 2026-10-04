@@ -14,12 +14,16 @@
 *.map
 
 # ============ Visual Studio ============
+# 工程/解决方案文件：只留在本地，仓库里只放 .c 源码
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 .vs/
 x64/
 Debug/
 Release/
 ipch/
-*.vcxproj.user
 *.suo
 *.sdf
 *.opendb
@@ -28,10 +32,7 @@ ipch/
 *.user
 
 # ============ VS Code ============
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
+.vscode/
 
 # ============ 系统 / 编辑器杂项 ============
 Thumbs.db
