@@ -20,6 +20,6 @@ gcc 2026_10_04/练习的小游戏.c -o game.exe -Wall
 ./game.exe
 ```
 
-用 Visual Studio 打开对应目录下的 `.slnx` 即可直接编译调试。
+用 Visual Studio / VS Code 打开`.c`文件即可编辑；在本机用 Visual Studio 建工程调试时，工程文件（`.slnx`、`.vcxproj`）只保存在本地，不纳入仓库。
 
-> 仓库已通过 `.gitignore` 排除 `.vs/`、`x64/`、`*.exe` 等编译产物，只保留源代码与工程配置文件。
+> 仓库已通过 `.gitignore` 排除 `.vs/`、`x64/`、`*.exe`、`*.slnx`、`*.vcxproj` 等编译产物与工程配置，**只保留 `.c` 源码**。克隆下来后直接用 GCC 编译即可运行。
