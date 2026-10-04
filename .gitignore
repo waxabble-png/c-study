@@ -1,0 +1,41 @@
+# ============ C / C++ 编译产物 ============
+*.exe
+*.obj
+*.o
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.map
+
+# ============ Visual Studio ============
+.vs/
+x64/
+Debug/
+Release/
+ipch/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+*.aps
+*.user
+
+# ============ VS Code ============
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ============ 系统 / 编辑器杂项 ============
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
